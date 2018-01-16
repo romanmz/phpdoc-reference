@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	 <author>Roman Martinez</author>
+	 <email>roman.mx3@gmail.com</email>
+	 <description>This is my custom template</description>
+	 <version>1.0.0</version>
+	 <transformations>
+		 <transformation writer="FileIo" query="copy" source="docs-template/css" artifact="css"/>
+		 <transformation writer="twig" source="docs-template/index.html.twig" artifact="index.html"/>
+	 </transformations>
+ </template>
+ 
